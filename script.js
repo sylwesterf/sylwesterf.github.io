@@ -1,7 +1,7 @@
 function drawLineChart() {
 
   var jsonData = $.ajax({
-    url: 'https://cors.io/?https://s3.eu-central-1.amazonaws.com/pms3003/data.json',
+    url: 'https://cors.io/?https://s3.eu-central-1.amazonaws.com/sylwesterf/data.json',
     dataType: 'json',
   }).done(function (results) {
 
